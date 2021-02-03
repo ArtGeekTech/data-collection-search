@@ -1,0 +1,15 @@
+server:
+  port: 8082
+
+spring:
+  data:
+    mongodb:
+      database: feedback_db
+      port: 27017
+      authentication-database: admin
+      username: root
+      password: root
+      host: localhost
+
+dao:
+  enable-es: true
